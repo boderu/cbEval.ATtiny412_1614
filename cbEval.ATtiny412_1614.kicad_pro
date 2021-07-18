@@ -113,15 +113,30 @@
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0
+        "solder_mask_min_width": 0.0,
+        "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.2032,
+        0.3048,
+        0.4064,
+        0.6096,
+        0.9144,
+        1.27,
+        1.905,
+        2.54,
+        3.81,
+        5.08
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.016,
+          "drill": 0.387096
         }
       ],
       "zones_allow_external_fillets": false,
